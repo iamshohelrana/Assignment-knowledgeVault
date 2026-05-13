@@ -1,0 +1,290 @@
+/* Global styles website */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Font Related style */
+
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared style */
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #00000014;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .img-container {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: #F95555;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.section-heading p, .card-container p{
+    font-size: 16px;
+    color: #627382;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #30b868;
+    border: 1px solid #30b868;
+    box-shadow: 0 10px 20px #00000016;
+}
+
+.btn-outline{
+    border: 1px solid #ffffff;
+    background: transparent;
+    margin-left:10px ;
+}
+.btn:hover{
+    background-color: #22a95a;
+}
+
+.btn-outline:hover{
+    background: #bfbfbf;
+}
+
+.btn img{
+    margin-left: 12px;
+    vertical-align: middle;
+}
+.btn-outline img{
+    margin-right: 12px;
+    margin-left: 0px;
+}
+.text-green{
+    color: #30b868;
+}
+/* Navbar related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+nav .menu-bar{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+
+nav .menu-bar a{
+    font-size: 16px;
+    font-style: medium;
+    color: #000000;
+    text-decoration: none;
+}
+.brand-logo{
+    max-width: 140px;
+}
+
+/* banner related style */
+.banner{
+    background-color: #ffffff;
+    background: url("../assets/hero-bg.png"), #ffffff ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0 180px 0;
+}
+
+.banner .banner-content{
+    max-width: 770px;
+    margin: auto auto;
+    text-align: center;
+}
+
+.banner .early-access-badge {
+    width: 230px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 8px 12px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.banner .early-access-badge h4 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.banner .early-access-badge .parent-circle {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #30b86933;
+}
+
+.banner .early-access-badge .child-circle {
+    width: 6px;
+    height: 6px;
+    outline: 3px solid #30b86952;
+    background:  #30b869cd;
+    border-radius: 100%;
+}
+
+
+.banner .banner-content h1 {
+    font-size: 72px;
+    color: #ffffff;
+    margin: 16px 0;
+}
+
+.banner .banner-content p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.notes {
+    background: #FBFBFB;
+}
+
+.notes .notes-container, #second-brain .second-brain-container {
+    padding: 120px 0;
+}
+
+.notes .section-heading p, #second-brain .section-heading p{
+    margin-bottom: 44px;
+}
+
+.notes .notes-container {
+    text-align: center;
+}
+
+.notes-container .card-container {
+    display: flex;
+    gap: 24px;
+}
+ .second-brain-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.second-brain .section-heading h3{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.second-brain .second-brain-container ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.second-brain .second-brain-container li {
+    margin-bottom: 16px;
+}
+
+.second-brain .second-brain-container i {
+    color: #30B868;
+    margin-right: 2px;
+}
+
+.section-list{
+    gap:26px;
+}
+.early-access .early-access-container{
+    padding: 80px 0;
+    text-align: center;
+    background: #F7F6F2;
+}
+
+.early-access .early-access-container .section-heading {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.early-access .early-access-container .btn {
+    margin: 24px 0 16px 0;
+}
+
+footer {
+    color: #ffffff;
+    background: #001931;
+    padding-top: 120px;
+    margin-top: 120px;
+}
+
+footer .footer-container .footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer .footer-container .footer-bottom {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer .footer-container hr {
+    border: none;
+    height: 1px;
+    background: #373737;
+}
+
+footer .social h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+footer .social i {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+footer .social i:hover{
+    color: #30B868;
+}
